@@ -1,0 +1,57 @@
+.loading {
+    position: fixed;
+    top: 350px;
+    left: 50%;
+    margin-top: -96px;
+    margin-left: -96px;
+    opacity: .85;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+#tabs {
+	border: 0;
+}
+#tabs ul{
+	background:white;
+	border: 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	margin-left: 100px;
+}
+#tabs ul li.ui-tabs-active{
+	font-weight: bold;
+	background: #00A759;
+	color: white;
+}
+#tabs ul li.ui-tabs-active a,
+#tabs ul li:not(ui-tabs-active) a {
+	color: white;
+}
+#tabs ul li:not(ui-tabs-active){
+	font-weight: normal;
+	background: #9B9B9B;
+}
+.ui-tabs-panel.ui-widget-content.ui-corner-bottom{
+    padding:0;
+}
+
+.centered {
+	margin: 0;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align:center;
+}
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
