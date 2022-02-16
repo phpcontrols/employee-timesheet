@@ -23,9 +23,9 @@ require_once("phpGrid/conf.php");
 		$dg -> set_col_edittype("activity_id", "select", "Select id, code from activity")->set_col_title('activity_id', 'Activity');
 	
 		$dg -> set_col_time("time_from")->set_col_property("time_from",
-            array("formatter"=>"date", "formatoptions"=>array("srcformat"=>"h:i A","newformat"=>"h:i A")));
+            array("formatter"=>"date", "formatoptions"=>array("srcformat"=>"h:i","newformat"=>"h:i A")));
 		$dg -> set_col_time("time_to")->set_col_property("time_to",
-            array("formatter"=>"date", "formatoptions"=>array("srcformat"=>"h:i A","newformat"=>"h:i A")));
+            array("formatter"=>"date", "formatoptions"=>array("srcformat"=>"h:i","newformat"=>"h:i A")));
 
 		$dg -> enable_edit('FORM')->enable_autowidth(true);
 
